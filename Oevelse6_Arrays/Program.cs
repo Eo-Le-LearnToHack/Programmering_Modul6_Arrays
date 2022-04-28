@@ -323,6 +323,32 @@ Se vejledende løsning til 6.8 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=716ae9e8-bd0e-4504-8cec-ade200cd23ee
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.8: 'Array_UserDefinedRange'");
+//Console.WriteLine("");
+//Console.WriteLine("Hvor mange ting ønsker du på huskelisten?");
+//int antal = Convert.ToInt32(Console.ReadLine());
+//string[] huskelisten = new string[antal];
+//Console.WriteLine("");
+//Console.WriteLine($"Indtast dine ting en af gangen op til {antal} ting.");
+//for (int indeks = 0; indeks < huskelisten.Length; indeks++)
+//{
+//    huskelisten[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("");
+//Console.WriteLine($"Alle dine {antal} ting udskrives:");
+//foreach (string ting in huskelisten)
+//{
+//        Console.WriteLine(ting);
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 /*Opgave 6.9
 Lav et program, hvor brugeren kan indtaste 5 tal. 
 Programmet skal derefter udskrive, hvor mange tal der er mindre end 5. 
