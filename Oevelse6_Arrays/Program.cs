@@ -249,6 +249,35 @@ Se vejledende løsning til 6.6 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a9303f4-8de4-4206-bcc1-ade200cd15e6
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.6: 'Array_3VareOgPris'");
+//Console.WriteLine("");
+//string[,] vare = new string[3,2];
+//Console.WriteLine("Indtast 3 varer. 1 vare af gangen efterfulgt af varens pris.");
+//Console.WriteLine("");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    Console.WriteLine("Indtast din vare");
+//    //0 er den faste kolonne for varens navn
+//    vare[indeks,0] = Console.ReadLine();
+//    Console.WriteLine("Indtast varens pris");
+//    //1 er den faste kolonne for varens pris
+//    vare[indeks, 1] = Console.ReadLine();
+//    Console.WriteLine();
+//}
+//Console.WriteLine("");
+//foreach (string varePosition in vare)
+//{
+//    Console.Write(varePosition + " ");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 /*Opgave 6.7
 Lav et program, hvor brugeren kan indtaste 5 tal. 
 Programmet skal derefter udskrive de tal, der er større end 10.
