@@ -30,7 +30,7 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c4f1e4e4-51d0-
 //string[] smørrebrød = new string[3] { "Smørrebrød med flæskesteg", "Smørrebrød med roastbeef", "Smørrebrød med rejer" };
 //for (int tal = 1; tal < 4; tal++)
 //{
-//    //smørrebrød[tal -1] fordi det indexnummer = 0
+//    //smørrebrød[tal -1] fordi det første indexnummer = 0
 //    Console.WriteLine($"Varenr. {tal}: {smørrebrød[ tal -1 ]}");
 //}
 //Console.WriteLine("");
@@ -77,6 +77,29 @@ Programmet skal derefter udskrive dem på en liste med tallene 1 2 og 3 for an.
 Se vejledende løsning til 6.3 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4f6e5f42-6760-4d0c-88b3-ade200cd19a0
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.3: 'Array_3Ting'");
+//Console.WriteLine("");
+//string[] ting = new string[3];
+//Console.WriteLine("Indtast dine 3 favoritter ting:");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    ting[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("");
+//for (int antal = 1; antal < 4; antal++)
+//{
+//    int indeks = antal - 1;
+//    Console.WriteLine($"{antal}: {ting[indeks]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
 
 
 /*Opgave 6.4
