@@ -395,30 +395,30 @@ Se vejledende løsning til 6.10 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9e944d05-39ae-4703-8ff2-ade200cd21a4
 */
 
-//using System;
-//start:
-//Console.Clear();
-//Console.WriteLine("Løsning til Opgave 6.10: 'Array_5WordsLessThan4Letters'");
-//Console.WriteLine("");
-//string[] ord = new string[5];
-//Console.WriteLine("Indtast 5 ord.");
-//Console.WriteLine("");
-//for (int indeks = 0; indeks < 5; indeks++)
-//{
-//    ord[indeks] = Console.ReadLine();
-//}
-//Console.WriteLine("Der udskrives ord mindre end 4 bogstaver:");
-//foreach (string ord_i_Array in ord)
-//{
-//    if (ord_i_Array.Length < 4)
-//    {
-//        Console.WriteLine(ord_i_Array);
-//    }
-//}
-//Console.WriteLine("");
-//Console.WriteLine("Tryk på ENTER for at prøve igen.");
-//Console.ReadLine();
-//goto start;
+using System;
+start:
+Console.Clear();
+Console.WriteLine("Løsning til Opgave 6.10: 'Array_5WordsEuqals4Letters'");
+Console.WriteLine("");
+string[] ord = new string[5];
+Console.WriteLine("Indtast 5 ord.");
+Console.WriteLine("");
+for (int indeks = 0; indeks < 5; indeks++)
+{
+    ord[indeks] = Console.ReadLine();
+}
+Console.WriteLine("Der udskrives ord mindre end 4 bogstaver:");
+foreach (string ord_i_Array in ord)
+{
+    if (ord_i_Array.Length == 4)
+    {
+        Console.WriteLine(ord_i_Array);
+    }
+}
+Console.WriteLine("");
+Console.WriteLine("Tryk på ENTER for at prøve igen.");
+Console.ReadLine();
+goto start;
 
 
 
@@ -457,4 +457,17 @@ for (int i = tal.Length; i > 0; i--)
     Console.WriteLine(tal[i]);
 }
 */
+
+//Console.WriteLine("Hvor mange tal vil du have?");
+//int antal = Convert.ToInt32(Console.ReadLine());
+//int[] tal = new int[antal];
+//for (int i = 0; i < tal.Length; i++)
+//{
+//    antal[i] = i;
+//}
+
+//for (int i = tal.Length; i > 0; i--)
+//{
+//    Console.WriteLine(tal[i]);
+//}
 
