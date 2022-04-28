@@ -390,11 +390,37 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=36050200-9622-
 /*Opgave 6.10
 Lav et program, hvor brugeren kan indtaste 5 ord. 
 Programmet skal derefter udskrive de ord, der har præcis 4 tegn i sig.
-
 💡 Du kan bruge Length til at finde ud af, hvor lang en tekst er.
 Se vejledende løsning til 6.10 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9e944d05-39ae-4703-8ff2-ade200cd21a4
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.10: 'Array_5WordsLessThan4Letters'");
+//Console.WriteLine("");
+//string[] ord = new string[5];
+//Console.WriteLine("Indtast 5 ord.");
+//Console.WriteLine("");
+//for (int indeks = 0; indeks < 5; indeks++)
+//{
+//    ord[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("Der udskrives ord mindre end 4 bogstaver:");
+//foreach (string ord_i_Array in ord)
+//{
+//    if (ord_i_Array.Length < 4)
+//    {
+//        Console.WriteLine(ord_i_Array);
+//    }
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 
 /*Find 5 fejl om arrays
 En undersøgelse viser, at softwareudviklere bruger mere tid på at teste og rette fejl end på at skrive ny kode.
