@@ -458,19 +458,19 @@ for (int i = tal.Length; i > 0; i--)
 }
 */
 
-using System;
-start:
-Console.WriteLine("Find 5 fejl om arrays"); 
-Console.WriteLine("Hvor mange tal vil du have?");
-int antal = Convert.ToInt32(Console.ReadLine());
-int[] tal = new int[antal];
-for (int i = 0; i < tal.Length; i++)
-{
-    tal[i] = i;
-}
-for (int i = tal.Length - 1; i > -1; i--)
-{
-    Console.WriteLine(tal[i]);
-}
-goto start;
+//using System;
+//start:
+//Console.WriteLine("Find 5 fejl om arrays"); 
+//Console.WriteLine("Hvor mange tal vil du have?");
+//int antal = Convert.ToInt32(Console.ReadLine());
+//int[] tal = new int[antal];
+//for (int i = 0; i < tal.Length; i++)
+//{
+//    tal[i] = i;
+//}
+//for (int i = tal.Length - 1; i > -1; i--)
+//{
+//    Console.WriteLine(tal[i]);
+//}
+//goto start;
 
