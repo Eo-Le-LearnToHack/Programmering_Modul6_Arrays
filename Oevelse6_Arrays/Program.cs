@@ -48,6 +48,29 @@ Se vejledende løsning til 6.2 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7b4b27a5-b3d7-41ee-88d2-ade200cd1b9c
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.2: 'Array_Lottotal ForeachLoop'");
+//Console.WriteLine("");
+//int[] lottoTalUge16 = new int[] {1, 3, 6, 16, 24, 25, 26};
+//const int lottoTalUge16Tillægstal = 30;
+//Console.WriteLine("Lotto vindertal uge 16");
+//foreach (int lottotal in lottoTalUge16)
+//{
+//    Console.Write(lottotal + " ");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("");
+//Console.WriteLine("Lotto tillægstal uge 16");
+//Console.Write(lottoTalUge16Tillægstal);
+//Console.WriteLine("");
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 /*Opgave 6.3
 Lav et program, hvor brugeren kan indtaste de tre ting, han synes bedst om. 
 Programmet skal derefter udskrive dem på en liste med tallene 1 2 og 3 for an.
