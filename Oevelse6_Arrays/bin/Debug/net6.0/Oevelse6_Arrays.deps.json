@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Oevelse6_Arrays/1.0.0": {
+        "runtime": {
+          "Oevelse6_Arrays.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oevelse6_Arrays/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

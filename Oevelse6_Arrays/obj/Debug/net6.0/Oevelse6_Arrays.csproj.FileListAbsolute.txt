@@ -1,0 +1,15 @@
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\bin\Debug\net6.0\Oevelse6_Arrays.exe
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\bin\Debug\net6.0\Oevelse6_Arrays.deps.json
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\bin\Debug\net6.0\Oevelse6_Arrays.runtimeconfig.json
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\bin\Debug\net6.0\Oevelse6_Arrays.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\bin\Debug\net6.0\Oevelse6_Arrays.pdb
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.csproj.AssemblyReference.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.AssemblyInfoInputs.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.AssemblyInfo.cs
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\refint\Oevelse6_Arrays.dll
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.pdb
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\Oevelse6_Arrays.genruntimeconfig.cache
+C:\Users\sim8hu\Desktop\Code\Ovelse\Oevelse6_Arrays\Oevelse6_Arrays\obj\Debug\net6.0\ref\Oevelse6_Arrays.dll

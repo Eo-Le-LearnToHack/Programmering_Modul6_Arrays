@@ -7,6 +7,38 @@ Se vejledende løsning til 6.1 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c4f1e4e4-51d0-47bd-a5c9-ade200cd1d11
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.1: 'Array_Smørrebrød ForeachLoop'");
+//Console.WriteLine("");
+//string[] smørrebrød = new string[3] { "Smørrebrød med flæskesteg", "Smørrebrød med roastbeef", "Smørrebrød med rejer" };
+//foreach (string vare in smørrebrød)
+//{
+//    Console.WriteLine($"{vare}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.1: 'Array_Smørrebrød ForLoop'");
+//Console.WriteLine("");
+//string[] smørrebrød = new string[3] { "Smørrebrød med flæskesteg", "Smørrebrød med roastbeef", "Smørrebrød med rejer" };
+//for (int tal = 1; tal < 4; tal++)
+//{
+//    //smørrebrød[tal -1] fordi det indexnummer = 0
+//    Console.WriteLine($"Varenr. {tal}: {smørrebrød[ tal -1 ]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 /*Opgave 6.2
 Lav et program som indeholder tallene fra den seneste lottotrækning. 
 https://danskespil.dk/lotto/vindertal
