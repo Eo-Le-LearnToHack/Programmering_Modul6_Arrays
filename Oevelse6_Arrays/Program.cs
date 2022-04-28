@@ -353,12 +353,39 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=716ae9e8-bd0e-
 Lav et program, hvor brugeren kan indtaste 5 tal. 
 Programmet skal derefter udskrive, hvor mange tal der er mindre end 5. 
 Programmet skal altså ikke udskrive tallene, men kun hvor mange tal der er mindre end 5.
-
 🤔 Har du tænkt over, at brugeren også kan indtaste decimaltal?
-
 Se vejledende løsning til 6.9 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=36050200-9622-41ef-b110-ade200cd1e30
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.9: 'Array_5TalMindreEnd5'");
+//Console.WriteLine("");
+//double[] tal = new double[5];
+//Console.WriteLine("Indtast 5 tal.");
+//Console.WriteLine("");
+//for (int indeks = 0; indeks < 5; indeks++)
+//{
+//    tal[indeks] = Convert.ToDouble(Console.ReadLine());
+//    Console.WriteLine("");
+//}
+//Console.WriteLine("");
+//int antal = 0;
+//foreach (double talVærdi in tal)
+//{
+//    if (talVærdi < 5)
+//    {
+//        antal++;
+//    }
+//}
+//Console.WriteLine($"Antallet af tal mindre end 5 er: {antal}");
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
 
 /*Opgave 6.10
 Lav et program, hvor brugeren kan indtaste 5 ord. 
