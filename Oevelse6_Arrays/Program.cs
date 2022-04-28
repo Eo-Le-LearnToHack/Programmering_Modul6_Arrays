@@ -109,6 +109,29 @@ Se vejledende løsning til 6.4 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1a45ecb7-a910-4406-903e-ade200cd159b
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.4: 'Array_3TingModsatRækkefølge'");
+//Console.WriteLine("");
+//string[] ting = new string[3];
+//Console.WriteLine("Indtast dine 3 favoritter ting:");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    ting[indeks] = Console.ReadLine();
+//}
+//System.Array.Reverse(ting);
+//Console.WriteLine("");
+//for (int prioritet = 1; prioritet < 4; prioritet++)
+//{
+//    int indeks = prioritet - 1;
+//    Console.WriteLine($"{prioritet}: {ting[indeks]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
 /*Opgave 6.5
 Lav et program, hvor brugeren kan indtaste navnene på tre venner. 
 Når brugeren har indtastet det, skal programmet tjekke om dit navn er i listen. 
