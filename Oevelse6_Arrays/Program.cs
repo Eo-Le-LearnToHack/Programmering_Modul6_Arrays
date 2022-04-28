@@ -281,12 +281,38 @@ https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a9303f4-8de4-
 /*Opgave 6.7
 Lav et program, hvor brugeren kan indtaste 5 tal. 
 Programmet skal derefter udskrive de tal, der er større end 10.
-
 🤔 Virker dit program også, hvis brugeren indtaster decimaltal?
-
 Se vejledende løsning til 6.7 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3457c036-f905-4b13-b59b-ade200cd162e
 */
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.7: 'Array_5TalStørreEnd10'");
+//Console.WriteLine("");
+//double[] tal = new double[5];
+//Console.WriteLine("Indtast 5 tal.");
+//Console.WriteLine("");
+//for (int indeks = 0; indeks < 5; indeks++)
+//{
+//    tal[indeks] = Convert.ToDouble(Console.ReadLine());
+//    Console.WriteLine("");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Kun tal større end 10 udskrives");
+//foreach (double talVærdi in tal)
+//{
+//    if (talVærdi > 10)
+//    {
+//        Console.WriteLine(talVærdi);
+//    }
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
 
 /*Opgave 6.8
 Lav et program, hvor brugeren kan indtaste en huskeliste. 
