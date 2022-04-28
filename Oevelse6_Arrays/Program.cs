@@ -143,6 +143,99 @@ Se vejledende løsning til 6.5 her.
 https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3c6bb44-4571-4476-bf32-ade200cd15bd
 */
 
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.6: 'Array_3NavneIncMitNavn'");
+//Console.WriteLine("");
+//string[] navn = new string[3];
+//const string mitNavn = "dan";
+//Console.WriteLine("Indtast 3 navne (Håber du husker mit navn):");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    navn[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("");
+//foreach (string navnIndtastet in navn)
+//{
+//    if (navnIndtastet.ToLower() == mitNavn)
+//    {
+//        Console.WriteLine("Godt du huskede mig :)");
+//    }
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Du glemte mit navn :(");
+//for (int prioritet = 1; prioritet < 4; prioritet++)
+//{
+//    int indeks = prioritet - 1;
+//    Console.WriteLine($"{prioritet}: {navn[indeks]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.6: 'Array_3NavneIncMitNavn_Array.Exist'");
+//Console.WriteLine("");
+//string[] navn = new string[3];
+//Console.WriteLine("Indtast 3 navne (Håber du husker mit navn):");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    navn[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("");
+//bool mitNavnFindes = Array.Exists(navn, element => element == "Dan");
+//if (mitNavnFindes == true)
+//    {
+//        Console.WriteLine("Godt du huskede mig :)");
+//    }
+//Console.WriteLine("");
+//Console.WriteLine("Du glemte mit navn :(");
+//for (int prioritet = 1; prioritet < 4; prioritet++)
+//{
+//    int indeks = prioritet - 1;
+//    Console.WriteLine($"{prioritet}: {navn[indeks]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+//using System;
+//start:
+//Console.Clear();
+//Console.WriteLine("Løsning til Opgave 6.6: 'Array_3NavneIncMitNavn_Array.Contains'");
+//Console.WriteLine("");
+//string[] navn = new string[3];
+//Console.WriteLine("Indtast 3 navne (Håber du husker mit navn):");
+//for (int indeks = 0; indeks < 3; indeks++)
+//{
+//    navn[indeks] = Console.ReadLine();
+//}
+//Console.WriteLine("");
+//if (navn.Contains("Dan", StringComparer.OrdinalIgnoreCase))
+//{ 
+//    Console.WriteLine("Godt du huskede mig :)");
+//    Console.WriteLine("");
+//    goto sandt;
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Du glemte mit navn :(");
+//sandt:
+//for (int prioritet = 1; prioritet < 4; prioritet++)
+//{
+//    int indeks = prioritet - 1;
+//    Console.WriteLine($"{prioritet}: {navn[indeks]}");
+//}
+//Console.WriteLine("");
+//Console.WriteLine("Tryk på ENTER for at prøve igen.");
+//Console.ReadLine();
+//goto start;
+
+
 /*Opgave 6.6
 Lav et program, hvor brugeren kan indtaste tre varer og deres pris. 
 Programmet skal derefter udskrive en prisliste.
